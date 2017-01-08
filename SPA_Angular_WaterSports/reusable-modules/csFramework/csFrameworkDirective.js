@@ -3,7 +3,7 @@
 
 angular.module("csFramework").directive("csFramework", function () {
     return {
-        transclude: false,
+        transclude: true,
         scope: {
             title: '@',
             subtitle: '@',

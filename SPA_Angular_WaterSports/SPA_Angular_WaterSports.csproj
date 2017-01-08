@@ -67,9 +67,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\app.css" />
+    <Content Include="app\appConfig.js" />
     <Content Include="images\csFramework-icon.jpg" />
     <Content Include="packages.config" />
     <Content Include="reusable-modules\csFramework\csFramework.css" />
+    <Content Include="reusable-modules\csMenu\csMenu.css" />
+    <Content Include="reusable-modules\csMenu\csMenuController.js" />
+    <Content Include="reusable-modules\csMenu\csMenuDirective.js" />
+    <Content Include="reusable-modules\csMenu\csMenuItemDirective.js" />
+    <Content Include="reusable-modules\csMenu\csMenuItemTemplate.html" />
+    <Content Include="reusable-modules\csMenu\csMenuTemplate.html" />
     <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.1.1.min.map" />
     <None Include="Web.Debug.config">

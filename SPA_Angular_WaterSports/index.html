@@ -7,26 +7,36 @@
     <link href="Content/font-awesome.min.css" rel="stylesheet" />
     <link href="app/app.css" rel="stylesheet" />
     <link href="reusable-modules/csFramework/csFramework.css" rel="stylesheet" />
+    <link href="reusable-modules/csMenu/csMenu.css" rel="stylesheet" />
 
     <script src="Scripts/jquery-3.1.1.min.js"></script>
     <script src="Scripts/angular.min.js"></script>
 
     <script src="app/appModule.js"></script>
     <script src="reusable-modules/csDashboard/csDashboardModule.js"></script>
-
+    
     <script src="reusable-modules/csMenu/csMenuModule.js"></script>
+    <script src="reusable-modules/csMenu/csMenuController.js"></script>
+    <script src="reusable-modules/csMenu/csMenuDirective.js"></script>
+    <script src="reusable-modules/csMenu/csMenuItemDirective.js"></script>
 
     <script src="reusable-modules/csFramework/csFrameworkModule.js"></script>
     <script src="reusable-modules/csFramework/csFrameworkDirective.js"></script>
     <script src="reusable-modules/csFramework/csFrameworkController.js"></script>
 
+
     <title>Water Sports SPA</title>
     <meta charset="utf-8" />
 </head>
 <body class="container-fluid">
-    <cs-framework title="Water Sports" 
-                  subtitle="Admin Application" 
+    <cs-framework title="Water Sports"
+                  subtitle="Admin Application"
                   icon-source="images/csFramework-icon.jpg">
+        <div data-cs-menu>
+            <cs-menu-item label="Dashboard" icon="fa-tachometer" route="dashboard"></cs-menu-item>
+            <cs-menu-item label="Locations" icon="fa-location-arrow" route="locations"></cs-menu-item>
+            <cs-menu-item label="Raft Guides" icon="fa-user" route="guides"></cs-menu-item>
+        </div>
 
     </cs-framework>
 
