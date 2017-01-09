@@ -5,11 +5,18 @@
     background-color:black;
     color:#ccc;
     padding-left:0;
+}
+
+.cs-menu-area-verticle{
     width:200px;
     min-height: 100vh;
     padding-top: 30px;
 }
 
+.cs-menu-area-horizontal{
+    width:100%;
+    height: 40px;
+}
 .cs-menu-area ul{
     padding-left:0;
 }
@@ -78,4 +85,13 @@
 
 .cs-subitem-section{
     padding-left:20px;
+}
+
+.cs-menu-layout-button{
+    margin:12px;
+    padding: 2px 8px;
+    color: #8f8888;
+    background-color:black;
+    border: 2px solid #ddd;
+
 }

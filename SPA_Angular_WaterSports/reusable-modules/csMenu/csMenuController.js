@@ -3,6 +3,7 @@
 angular.module("csMenu").controller("csMenuController", ['$scope','$rootScope', function ($scope,$rootScope) {
 
     $scope.showMenu = true;
+    $scope.isVerticle = true;
 
     this.getActiveElement = function(){
         return $scope.activeElement;
@@ -21,4 +22,13 @@ angular.module("csMenu").controller("csMenuController", ['$scope','$rootScope', 
         console.log(data.show);
         $scope.showMenu = data.show;
     });
+
+    $scope.toggleMenuOrientation = function () {
+        $scope.isVerticle = !$scope.isVerticle;
+        console.log($scope.isVerticle);
+        $rootScope.$broadcast('cs-menu-orientation-toggle-event', 
+        {
+            isMenuVerticle: $scope.isVerticle
+        });
+    };
 }]);

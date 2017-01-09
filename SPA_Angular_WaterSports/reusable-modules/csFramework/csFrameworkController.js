@@ -4,8 +4,11 @@ angular.module("csFramework").controller("csFrameworkController", ['$scope', '$w
     function ($scope, $window, $timeout,$rootScope) {
 
         $scope.isMenuButtonVisible = true;
-
+        $scope.isMenuVerticle = true;
        
+        $scope.$on('cs-menu-orientation-toggle-event', function (evt, data) {
+            $scope.isMenuVerticle = data.isMenuVerticle;
+        });
 
         $scope.$on('cs-menu-item-selected-event', function (evt, data) {
             console.log(data.route);
