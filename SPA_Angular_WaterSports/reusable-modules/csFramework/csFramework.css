@@ -10,7 +10,7 @@
 
 .cs-logo-area{
     margin-left: -10px;
-    text-align: center;
+    text-align: left;
 
 
 }
@@ -43,6 +43,21 @@
     text-align: center;
 }
 
+.cs-collapsed-menu{
+    display:inline-block;
+    height:100%;
+}
+
+.cs-nav-button{
+    height:40px;
+    width:60px;
+    margin-top:10px;
+    border:1px solid #888;
+    padding:0;
+    font-size: 26px;
+    color:#777;
+}
+
 @media screen and (min-width:768px) {
 
     .cs-right-side-controls > div{
@@ -53,3 +68,19 @@
         text-align: left;
     }
 }
+
+@media screen and (max-width:430px) {
+
+    .cs-icon{
+        display:none;
+    }
+
+    .cs-logo-title{
+        font-size:16px;
+    }
+    .cs-logo-subtitle{
+        font-size:8px;
+    }
+}
+
+

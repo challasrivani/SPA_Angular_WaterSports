@@ -7,7 +7,13 @@
                 <p class="cs-logo-subtitle">{{ subtitle }}</p>
 
             </div>
+            <div ng-if="isMenuButtonVisible" ng-click="menuButtonClicked()"
+                 class="cs-collapsed-menu pull-right">
+                <button type="button" class="btn cs-nav-button">
+                    <i class="fa fa-bars"></i>
+                </button>
 
+            </div>
         </div>
         <div class="cs-right-side-controls col-sm-6">
             <div>
