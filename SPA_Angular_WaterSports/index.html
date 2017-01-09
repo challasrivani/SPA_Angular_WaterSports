@@ -19,6 +19,7 @@
     <script src="reusable-modules/csMenu/csMenuController.js"></script>
     <script src="reusable-modules/csMenu/csMenuDirective.js"></script>
     <script src="reusable-modules/csMenu/csMenuItemDirective.js"></script>
+    <script src="reusable-modules/csMenu/csMenuGroupDirective.js"></script>
 
     <script src="reusable-modules/csFramework/csFrameworkModule.js"></script>
     <script src="reusable-modules/csFramework/csFrameworkDirective.js"></script>
@@ -36,6 +37,11 @@
             <cs-menu-item label="Dashboard" icon="fa-tachometer" route="dashboard"></cs-menu-item>
             <cs-menu-item label="Locations" icon="fa-location-arrow" route="locations"></cs-menu-item>
             <cs-menu-item label="Raft Guides" icon="fa-user" route="guides"></cs-menu-item>
+            <cs-menu-group label="Equipment" icon="fa-gears">
+                <cs-menu-item label="Rafts" icon="fa-unlink" route="rafts"></cs-menu-item>
+                <cs-menu-item label="Paddles" icon="fa-magic" route="paddles"></cs-menu-item>
+                <cs-menu-item label="Life Vests" icon="fa-life-ring" route="vests"></cs-menu-item>
+            </cs-menu-group>
         </div>
 
     </cs-framework>

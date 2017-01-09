@@ -67,3 +67,15 @@
 .cs-menu-icon{
     margin-right:10px;
 }
+
+.cs-group-indicator-left{
+    float:right;
+    color: lightgray;
+    margin-top:15px;
+    margin-right:5px;
+
+}
+
+.cs-subitem-section{
+    padding-left:20px;
+}

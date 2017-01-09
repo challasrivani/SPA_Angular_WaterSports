@@ -1,0 +1,11 @@
+﻿<li class="cs-menu-item" ng-click="clicked()">
+    <div class="cs-noselect">
+        <i class="fa {{icon}} cs-menu-icon"></i>
+        {{ label }}
+        <i class="fa fa-chevron-left cs-group-indicator-left" 
+           ng-class="{ 'fa-rotate-270' :isOpen}"></i>
+    </div>
+</li>
+<div ng-show="isOpen" class="cs-subitem-section">
+    <ul ng-transclude ></ul>
+</div>

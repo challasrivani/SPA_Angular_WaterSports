@@ -74,6 +74,8 @@
     <Content Include="reusable-modules\csMenu\csMenu.css" />
     <Content Include="reusable-modules\csMenu\csMenuController.js" />
     <Content Include="reusable-modules\csMenu\csMenuDirective.js" />
+    <Content Include="reusable-modules\csMenu\csMenuGroupDirective.js" />
+    <Content Include="reusable-modules\csMenu\csMenuGroupTemplate.html" />
     <Content Include="reusable-modules\csMenu\csMenuItemDirective.js" />
     <Content Include="reusable-modules\csMenu\csMenuItemTemplate.html" />
     <Content Include="reusable-modules\csMenu\csMenuTemplate.html" />
